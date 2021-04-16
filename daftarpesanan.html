@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <style>
+        th {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: aliceblue;
+            background-color: rgb(255, 0, 204);
+        }
+
+        td {
+            text-align: center;
+            font-size: large;
+            text-transform: uppercase;
+            color: rgb(255, 0, 204);
+            font-weight: bolder;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body onload="showTableBody()" style="background-image: url(K01.jpg); width: 100%;">
+    <h1 style="text-align: center;">Daftar Pesanan</h1>
+    <center>
+        <table class="table" border="1px">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Pesanan</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="tableBody">
+
+            </tbody>
+
+        </table>
+    </center>
+</body>
+<script src="script.js"></script>
+
+
+</html>

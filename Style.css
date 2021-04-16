@@ -1,0 +1,192 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+section {
+  position: relative;
+  width: 100%;
+
+  /* background: linear-gradient(
+    0deg,
+    rgb(0, 177, 195) 0%,
+    rgb(164, 212, 160) 80%
+  ); */
+}
+
+.sec1 {
+  background: white;
+}
+
+#curve {
+  width: 100%;
+  bottom: 0;
+  margin-bottom: -100px;
+}
+
+#curve path {
+  fill: white;
+}
+
+.banner {
+  padding-top: 150px;
+}
+
+#circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: url("img/img3.png") center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: rgb(99, 77, 77);
+  background-attachment: local;
+  margin-top: -300px;
+}
+
+#circle2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: rgb(99, 77, 77);
+  margin-top: -300px;
+  margin-left: 150px;
+}
+
+#circle3 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: rgb(99, 77, 77);
+  margin-right: 150px;
+}
+
+marquee {
+  background-color: black;
+}
+
+marquee h1 {
+  text-shadow: 4px 2px 15px rgb(161, 206, 115);
+  color: white;
+  font-size: 20px;
+}
+
+nav {
+  position: absolute;
+  z-index: 9999;
+
+  width: 100%;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+nav ul li {
+  padding: 10px 10px;
+  display: inline-block;
+  /* inline block biar class navigasinya kesamping
+    tidak kebawah */
+}
+
+nav ul li a {
+  padding: 15px 15px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 0, 204);
+}
+
+nav ul li a:hover {
+  color: blue;
+  background: white;
+}
+
+.title h1.name {
+  font-size: 40px;
+  text-shadow: 4px 2px 15px rgb(161, 206, 115);
+  color: rgb(255, 0, 204);
+}
+
+.typing {
+  margin-top: 0;
+  text-shadow: 4px 2px 15px white;
+  letter-spacing: 10px;
+  font-size: 50px;
+  color: rgb(255, 0, 204);
+  font-weight: bold;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  0% {
+    letter-spacing: 50px;
+  }
+
+  35% {
+    color: red;
+    letter-spacing: 35px;
+  }
+
+  80% {
+    color: chartreuse;
+    letter-spacing: 15px;
+  }
+}
+
+.title p {
+  font-size: 25px;
+  text-shadow: 4px 2px 15px white;
+  color: rgb(255, 0, 204);
+}
+
+/* Working Space */
+.working-space {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.working-space h3 {
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: -20px;
+  padding-top: 50px;
+  color: rgb(255, 0, 204);
+  margin-bottom: 10px;
+}
+
+.working-space p {
+  font-size: 18px;
+  color: #acacac;
+  font-weight: 300;
+}
+
+.working-space img {
+  width: 50%;
+  border-radius: 10%;
+  padding-left: 75px;
+  padding-right: 25px;
+  float: left;
+}
+
+.galery-button {
+  background: #5340ff;
+  /* Green */
+  border: 1px solid black;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.galery-button:hover {
+  background: black;
+  color: white;
+}
